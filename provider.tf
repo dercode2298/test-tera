@@ -14,6 +14,6 @@ terraform {
 
 provider "aws" {
   region  = "ap-south-1" # switch other ap-southeast-1 or
-  profile = "vti"
+  profile = "default"
 }
 provider "random" {}
