@@ -41,8 +41,4 @@ jobs:
         run: "terraform plan -var-file=./envs/dev.tfvars"
 
       - name: "apply the tfvars "
-<<<<<<< HEAD
         run: "terraform apply  -var-file=./envs/dev.tfvars --auto-approve"
-=======
-        run: "terraform apply  -var-file=./envs/dev.tfvars --auto-approve"
->>>>>>> dc34f7b4ab78b705157e5438c56965b798b2adda
