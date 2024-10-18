@@ -32,5 +32,5 @@
 #       - name: "Select namespace"
 #         run: "terraform workspace select dev"
 
-#       - name: "Destroy the resources"
-#         run: "terraform destroy -var-file=./envs/dev.tfvars --auto-approve"
+    #   - name: "Destroy the resources"
+        # run: "terraform destroy -var-file=./envs/dev.tfvars --auto-approve"
